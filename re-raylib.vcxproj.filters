@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="raylib">
+      <UniqueIdentifier>{5a741b16-5293-463a-8b92-f598c77f170d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="raycpp">
+      <UniqueIdentifier>{263dbf93-1032-486e-9f19-9da086072a76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="raylib\include\raylib.h">
+      <Filter>raylib</Filter>
+    </ClInclude>
+    <ClInclude Include="raylib\include\raymath.h">
+      <Filter>raylib</Filter>
+    </ClInclude>
+    <ClInclude Include="raylib\include\rlgl.h">
+      <Filter>raylib</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\BoundingBox.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Camera2D.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Camera3D.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Color.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\FileData.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\FileText.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Font.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Functions.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Gamepad.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Image.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Keyboard.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Material.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Matrix.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Mesh.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\MeshUnmanaged.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Model.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\ModelAnimation.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Mouse.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Music.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Ray.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\RayCollision.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\raylib.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\raylib-assert.h">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\raylib-cpp.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\raylib-cpp-utils.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\RaylibException.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\raymath.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Rectangle.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\RenderTexture.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Shader.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\ShaderUnmanaged.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Sound.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Text.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Texture.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\TextureUnmanaged.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Touch.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Vector2.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Vector3.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Vector4.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\VrStereoConfig.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Wave.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\Window.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\AudioDevice.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\AudioStream.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+    <ClInclude Include="raycpp\include\AutomationEventList.hpp">
+      <Filter>raycpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
