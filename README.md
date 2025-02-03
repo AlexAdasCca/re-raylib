@@ -22,10 +22,10 @@ The script is written in Python 🐍, though it’s a bit messy at the moment (a
 
 **补充 | Additions**：
 
-1）raylib 的后端主要使用 GLFW 构建窗口框架，并使用 OpenGL（或者vulkan）在其上进行渲染。如果使用混合透明，  
-最好使用 OpenGL 3.3 之后的版本进行构建，否则可能在部分显卡驱动上出现透明失效💻。  
+1）raylib 的后端主要使用 GLFW 构建窗口框架，并使用 OpenGL（或者vulkan）在其上进行渲染。如果使用混合透明，
+   最好使用 OpenGL 3.3 或更高的版本进行构建，否则可能在部分具有旧版本显卡驱动的设备上出现透明失效等问题💻。
 2）**最重要的，raylib 不支持 Multi-Viewports，即不支持并行（甚至是逐个渲染）的多平台窗口交互，只能创建一个上下文。  
-目前，官方的实验分支中仅有限地允许多窗口，但每次只有一个活动上下文，交互十分受限。😕**
+   目前，官方的实验分支中仅有限地允许多窗口，但每次只有一个活动上下文，交互十分受限。😕**
 
 1) raylib's backend mainly uses GLFW to build the window framework and uses OpenGL (or Vulkan) for rendering. If using mixed transparency,  
 it’s best to use OpenGL version 3.3 or later to build, as transparency may not work on some graphics drivers with older versions. 💻
