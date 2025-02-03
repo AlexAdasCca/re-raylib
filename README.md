@@ -4,6 +4,8 @@ The original project comes from [raylib: https://github.com/raysan5/raylib](http
 我在对 raylib 项目进行符号转换过程中也整合了 [raylib-cpp](https://github.com/RobLoach/raylib-cpp) 这一 c++ 封装项目（只有头文件，所以很方便集成）。  
 During the symbol conversion of the raylib project, I also integrated [raylib-cpp](https://github.com/RobLoach/raylib-cpp), a C++ wrapper project (which only contains header files, making it easy to integrate). 🛠️
 
+**重要**：目前我已经在我的副本中使用 raylib v.5.5 版本，并使用其携带的 OpenGL 4.3 进行构建。演示项目为一个简易的 demo，它仅显示一个由 raylib-cpp 创建的 GUI。后续我将补充推送 x86 构建的静态库文件。
+
 # 净化脚本 | Purification Script
 符号冲突主要是因为 raylib 中窗口相关的函数名称与 windows 下的函数名称相同，⚠️ 
 因为强制使用了 C 风格的函数定义，导致其和 Windows.h 中的声明冲突，所以编译器不会放行 ❌ 。 
