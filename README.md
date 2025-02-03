@@ -16,7 +16,7 @@ Symbol conflicts mainly arise from the window-related function names in raylib t
 Because C-style function definitions are forced, they conflict with declarations in Windows.h, causing the compiler to reject them. ❌  
 The conventional approach is to use namespaces as recommended by the official documentation, and reduce the use of definitions from Windows.h, but this imposes many restrictions. Also, this is not applicable in the latest 5.x versions. 
 
-I also considered that directly modifying the Windows SDK code is not a good option, as it could easily invalidate the configuration. 🔧  
+I also considered that directly modifying WindowsSDK is not a good idea, as it could easily invalidate the configuration. 🔧  
 Thus, I decided to add the `RL` prefix to raylib symbols to alleviate this issue. You can find the script in the clean-scripts directory. 📂  
 The script is written in Python 🐍, though it’s a bit messy at the moment (apologies for that). 
 
